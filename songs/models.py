@@ -1,8 +1,7 @@
-from unittest.util import _MAX_LENGTH
 from django.db import models
 
 
-class Music(models.model):
+class Song(models.Model):
     title = models.CharField(max_length=255)
     artist = models.CharField(max_length=50)
     album = models.CharField(max_length=50)

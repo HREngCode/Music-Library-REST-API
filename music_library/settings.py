@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'music_library',
+    'songs',
 ]
 
 MIDDLEWARE = [
