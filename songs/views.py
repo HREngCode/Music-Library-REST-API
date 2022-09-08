@@ -30,5 +30,5 @@ def song_detail(request, pk):
         serializer.save()
         return Response(serializer.data)
     elif request.method == 'DELETE':
-        car.delete()
+        song.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)

@@ -71,9 +71,9 @@ TEMPLATES = [
     },
 ]
 
-REST_FRAMEWORK = (
+REST_FRAMEWORK = {
     'COERCE_DECIMAL_TO_STRING': False
-)
+}
 
 WSGI_APPLICATION = 'music_library.wsgi.application'
 
